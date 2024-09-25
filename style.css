@@ -3,3 +3,19 @@
     padding: 0;
 }
 
+.round_border_right{
+    border-top-right-radius:50% !important;
+    border-bottom-right-radius:50% !important;
+}
+.round_border_left{
+    border-top-left-radius: 1rem !important; 
+    border-bottom-left-radius: 1rem !important;
+}
+
+#sidbar{
+    height: 90vh;
+}
+
+#sidbar a{
+     color: white !important;
+}
