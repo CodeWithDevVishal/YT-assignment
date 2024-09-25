@@ -20,24 +20,25 @@
 <body>
     <!-- <i class="fa-brands fa-youtube" style="color: #ff0000;"></i> -->
 
-    <div class="container-fluid p-3">
+    <div class="container-fluid ">
 
-        <div class="row d-flex  align-items-center">
+        <div class="row d-flex  align-items-center bg-dark  p-3">
 
-            <div class="col-md-3 d-flex align-items-center fs-6 fw-bolder">
-                <div class="me-3">
-                    <i class="fa-solid fa-bars"></i>
+            <div class="col-md-3 d-flex  align-items-center fs-6 fw-bolder">
+                <div class="">
+                    <i class="fa-solid fa-bars "></i>
                 </div>
-                <div>
-                    <i class="fa-brands fa-youtube text-danger ">YouTube</i>
+                <div class="">
+                    <i class="fa-brands fa-youtube text-danger"><span class="text-white p-3">YouTube</span></i>
                 </div>
             </div>
 
-            <div class="col-md-6 d-flex align-items-center h-100">
-                <div class="input-group input-group-sm mb-3 ">
-                    <input type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm" placeholder="Search">
-                    <span class="input-group-text" id="inputGroup-sizing-sm"> <i class="fa-solid fa-magnifying-glass">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="input-group input-group-sm mb-3">
+                    <input type="text" class="form-control p-2 bg-dark round_border_left"
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Search">
+                    <span class="input-group-text bg-dark text-white round_border_right" id="inputGroup-sizing-sm"> <i
+                            class="fa-solid fa-magnifying-glass">
                         </i> </span>
                 </div>
                 <div class="d-flex justify-content-center align-items-center ">
@@ -46,17 +47,63 @@
 
             </div>
 
-            
-            <div class="col-md-3 d-flex align-items-center">
+
+            <div class="col-md-3 d-flex justify-content-center align-items-center ">
                 <div class="flex-grow-1"></div>
                 <div><i class="fa-solid fa-ellipsis-vertical me-3"></i></div>
 
-                <div class="btn btn-dark rounded-pill"><i class="fa-regular fa-circle-user me-3"> </i> <span>Sign in</span></div>
+                <div class="btn btn-dark rounded-pill border"><i class="fa-regular fa-circle-user me-3"> </i> <span>Sign
+                        in</span></div>
             </div>
 
         </div>
 
-        <div class="row"></div>
+        <div class="row">
+            <div class="col-md-2 bg-dark">
+
+                <div id="sidbar" class="container-fluid w-100">
+
+                    <div class="row d-flex  flex-column justify-content-evenly w-100 h-100">
+
+                        <div class=" col-md-3 d-flex flex-column  border-bottom w-100">
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-house"></i>Home</a>
+                            <a href="#" class="text-decoration-none d-flex"><i
+                                    class="fa-brands fa-square-youtube"></i>Short</a>
+                            <a href="#" class="text-decoration-none d-flex"><i
+                                    class="fa-solid fa-layer-group"></i>Subscriptions</a>
+                        </div>
+
+
+                        <div class="col-md-3 d-flex  flex-column border-bottom w-100">
+                            <a href="#" class="text-decoration-none d-flex"><i
+                                    class="fa-brands fa-square-youtube"></i>You</a>
+                            <a href="#" class="text-decoration-none d-flex"><i
+                                    class="fa-solid fa-clock-rotate-left"></i>History</a>
+                        </div>
+
+                        <div class="col-md-3 d-flex  flex-column  text-light border-bottom">
+                            <h3>Explore</h3>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-meteor"></i>Trending</a>
+                            <a href="#" class="text-decoration-none d-flex "><i class="fa-solid fa-bag-shopping"></i>Shopping</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-music"></i>Music</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-clapperboard"></i>Movies</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-tower-broadcast"></i>Live</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-gamepad"></i>Gaming</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-newspaper"></i>News</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-trophy"></i>Sports</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-lightbulb"></i>Courses</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-shirt"></i>Fashion & Beauty</a>
+                            <a href="#" class="text-decoration-none d-flex"><i class="fa-solid fa-podcast"></i>Podcasts</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-10 bg-danger"></div>
+
+        </div>
 
     </div>
 
